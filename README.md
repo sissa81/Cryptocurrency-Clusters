@@ -6,11 +6,11 @@
 
 ## Process
 
-* Data Preparation
+* Data Preparation: exclude cryptocurrency that is not being traded, or has not been mined. Convert text values to numerical data and standardize the dataset.
 
-* Dimensionality Reduction
+* Dimensionality Reduction: reduced number of features through PCA and t-SNE, preserving 90% of the explained variance in dimensionality reduction.
 
-* Cluster Analysis with K-Means
+* Cluster Analysis with K-Means: create an elbow plot to determine the best number of clusters.
 
 ### Recommendation
 
