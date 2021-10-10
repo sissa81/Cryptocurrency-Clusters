@@ -17,9 +17,13 @@
 ### Cluster Analysis with K-Means:
 * Create an elbow plot to determine the best number of clusters.
 
-## Recommendation
+## Findings and Recommendations
 
-* Based on your findings, make a brief (1-2 sentences) recommendation to your clients. Can the cryptocurrencies be clustered together? If so, into how many clusters? 
+* After preparing the data I found 532 tradable cryptocurrencies.
+* Looking at the elbow plot it looks like the best number of groups to classify is 5, possibly 6.
+![Elbow-Plot](Images/elbow_plot.png)
+* Looking at the scatter plot it there are 3 main clusters. There are a couple in the middle that looks like only 1 or 2 data points.
+![Scatter-Plot](Images/scatter_plot.png)
 
 
 
