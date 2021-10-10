@@ -6,13 +6,18 @@
 
 ## Process
 
-* Data Preparation: exclude cryptocurrency that is not being traded, or has not been mined. Convert text values to numerical data and standardize the dataset.
+### Data Preparation: 
 
-* Dimensionality Reduction: reduced number of features through PCA and t-SNE, preserving 90% of the explained variance in dimensionality reduction.
+* Exclude cryptocurrency that is not being traded, or has not been mined. 
+* Convert text values to numerical data and standardize the dataset.
 
-* Cluster Analysis with K-Means: create an elbow plot to determine the best number of clusters.
+### Dimensionality Reduction: 
+* Reduced number of features through PCA and t-SNE, preserving 90% of the explained variance in dimensionality reduction.
 
-### Recommendation
+### Cluster Analysis with K-Means:
+* Create an elbow plot to determine the best number of clusters.
+
+## Recommendation
 
 * Based on your findings, make a brief (1-2 sentences) recommendation to your clients. Can the cryptocurrencies be clustered together? If so, into how many clusters? 
 
